@@ -1,0 +1,25 @@
+/* style.css */
+
+body {
+    font-family: sans-serif;
+    margin: 20px;
+}
+h1, h2, h3 {
+    color: #333;
+}
+.section {
+    margin-bottom: 20px;
+}
+.skills {
+    list-style-type: none;
+    padding: 0;
+}
+.skills li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.project {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
