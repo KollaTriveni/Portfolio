@@ -1,25 +1,50 @@
-/* style.css */
-
 body {
-    font-family: sans-serif;
-    margin: 20px;
-}
-h1, h2, h3 {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
     color: #333;
 }
-.section {
-    margin-bottom: 20px;
+header {
+    background-color: #5952d1;
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
-.skills {
-    list-style-type: none;
+nav ul {
+    list-style: none;
     padding: 0;
 }
-.skills li {
-    display: inline-block;
-    margin-right: 10px;
+nav ul li {
+    display: inline;
+    margin: 0 15px;
 }
-.project {
-    border: 1px solid #ddd;
-    padding: 10px;
-    margin-bottom: 10px;
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+section {
+    padding: 20px;
+    margin: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    color: #444;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #5952d1;
+    color: white;
+    margin-top: 20px;
+}
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
 }
